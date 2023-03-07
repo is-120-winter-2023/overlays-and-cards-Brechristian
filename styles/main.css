@@ -195,4 +195,25 @@ footer p {
   position: absolute;
   inset: 0;
   color: var(--color-accent-light);
+  text-align: center;
+  text-shadow: 2px 2px 2px #0005;
+}
+
+.hero p {
+  font-size: clamp(1rem, 0.5vw + 1rem, 10rem);
+}
+
+.hero p {
+  font-size: clamp(5.5rem, 2vw, 1rem, 10rem);
+}
+
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
 }

@@ -28,11 +28,14 @@ ering so easy, it's better to wait until we learn flexbox to vertically center e
 <!-- done -->
 - Use either a semi-transparent `background-color`, with or without a gradient, or a `filter` to de-emphasize the hero image. Make sure that the overlay gradient or filter covers the entire image (no visible gaps). You can use a `::before` pseudo-element to add the gradient or filter.
 - Adjust the color of the text to make it readable on top of the hero image.
+<!-- done -->
 - Adjust the font size, line-height, and margins or paddings so that `<h1>` and `<p>` "look good" on a full screen (remember what you learned in the Whitespace assignment). In the next section, you'll add dynamic font sizing to your `<h1>` for narrower (tablet and mobile) viewports. Don't worry about making it look good on tablet or mobile yet.
+<!-- done -->
 - The text should be positioned over the hero image – it does not have to be centered. Flexbox will simplify positioning text, so don't spend time trying to perfectly position the text. At a minimum, it should at least be offset from the edge of the image.
+<!-- done -->
 - Add a subtle text-shadow to your `<h1>` (and possibly your subtitle) to make it stand out.
-
-![sample hero overlay](readme-assets/readme-hero-img.jpg)
+  <!-- done -->
+  ![sample hero overlay](readme-assets/readme-hero-img.jpg)
 
 | 💡 Helpful resources                                                                                |
 | :-------------------------------------------------------------------------------------------------- |
@@ -103,6 +106,8 @@ The validator will issue a warning if your `<section>` does not have a heading. 
   position: absolute;
 }
 ```
+
+<!-- done -->
 
 Requirements for this section:
 
