@@ -98,9 +98,10 @@ body {
 
 h1 {
   font-family: "Oswald", sans-serif;
-  color: var(--color-primary);
+  color: var(--color-accent-light);
   font-size: 3.5rem;
   padding-bottom: 2rem;
+  text-shadow: 2px 2px 2px #0005;
 }
 
 h2 {
@@ -183,4 +184,15 @@ footer p {
   content: "";
   position: absolute;
   inset: 0;
+  background-image: linear-gradient(to top, #0006, transparent 50%);
+}
+
+.img1 {
+  filter: brightness(60%);
+}
+
+.hero .headsub {
+  position: absolute;
+  inset: 0;
+  color: var(--color-accent-light);
 }
