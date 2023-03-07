@@ -217,3 +217,21 @@ footer p {
   padding: 0;
   position: absolute;
 }
+
+.cards {
+  display: flex;
+  flex: 1 1 0;
+  gap: 1rem;
+  margin: 1rem;
+  transition: box-shadow 300ms ease;
+}
+
+.cards p {
+  position: relative;
+  inset: 0;
+}
+/* i need text to be underneath the pictures.. */
+
+.cards:hover {
+  box-shadow: #0005;
+}

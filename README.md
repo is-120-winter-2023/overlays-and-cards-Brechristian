@@ -113,7 +113,9 @@ Requirements for this section:
 
 - Add a `<section>` with class `.cards` that will contain four cards. The section can be inside or outside `<main>`. _If it is inside main, its width will be limited by the `max-width` of main. If the cards are outside main, add a "gutter" of at least 1rem on the left and right to offset the cards from the edge of the screen_
 - Add four cards, each with a unique image and text (text can either be always visible or appear on hover or disappear on hover). You are welcome to model your cards after ones you've seen online or after some cards we reviewed in class.
+<!-- done -->
 - Card images are 500px wide. They can be any height, but should all be the same height. Make sure to add the `width` and `height` attributes to your `<img>` elements with the images' intrinsic height and width so that the browser can reserve space for the images before it loads.
+<!-- done -->
 - Images are responsive, in other words, they resize if the card resizes. This means their CSS width is set to 100%, which will cause them to always fill the width of their container. This is already set in the `main.css` file I included in the earlier assignment. Below is the CSS snippet from the `main.css` file. Setting the `height` property to `auto` in your CSS will override the `height` attribute in the HTML and keep the image from being distorted when it resizes. `display: block` is also set to make sure the image is not inline which would make it have a line-height that would cause an overlay to have a gap below the image.
 
 ```css
@@ -149,6 +151,8 @@ Below is an example of markup for your cards. You are welcome to adjust it to su
 | 💡 Lazy loading images                                                                                                                                                                                                                                                                 |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | To improve performance, add the `loading="lazy"` attribute to your `<img>` elements that are _below the fold_ or not immediately visible when the page is loaded. This will tell the browser to load the images only when they are visible in the viewport and save on page load time. |
+
+<!-- done -->
 
 Since, by default, `<a>` elements are inline elements, you will need to set the `display` property of any `<a>` elements inside the `.cards` class to `inline-block` to make them behave like block elements. However, if you use a flexbox layout, you won't need to do this. To simplify this assignment, I recommend adding this to your CSS and not worrying about changing the `<a>` display property. We will learn more about how to use flexboxes in a future assignment.
 
