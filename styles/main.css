@@ -219,16 +219,19 @@ footer p {
 }
 
 .cards {
+  height: 300px;
   display: flex;
+  /* align-items: flex-end; */
   flex: 1 1 0;
   gap: 1rem;
   margin: 1rem;
-  transition: box-shadow 300ms ease;
+  /* transition: box-shadow 300ms ease; */
 }
 
-.cards p {
+.cards h3 {
   position: relative;
   inset: 0;
+  text-align: center;
 }
 /* i need text to be underneath the pictures.. */
 
