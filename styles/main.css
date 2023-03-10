@@ -219,13 +219,12 @@ footer p {
 }
 
 .cards {
-  height: 300px;
   display: flex;
   /* align-items: flex-end; */
   flex: 1 1 0;
   gap: 1rem;
-  margin: 1rem;
-  /* transition: box-shadow 300ms ease; */
+  margin: 0 1rem 8rem;
+  transition: box-shadow 300ms ease;
 }
 
 .cards h3 {
@@ -235,6 +234,23 @@ footer p {
 }
 /* i need text to be underneath the pictures.. */
 
-.cards:hover {
-  box-shadow: #0005;
+.marginer {
+  margin-bottom: 6rem;
+}
+
+.card {
+  overflow: hidden;
+  transition: box-shadow 300ms ease;
+}
+
+.card img {
+  transition: transform 300ms ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+}
+
+.card .imagewrapper {
+  overflow: hidden;
 }
